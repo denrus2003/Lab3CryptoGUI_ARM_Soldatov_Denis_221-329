@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		923E61342CB32F5700FA7565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923E611A2CB32F5500FA7565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 923E61212CB32F5500FA7565;
+			remoteInfo = "Lab3 Crypto GUI";
+		};
+		923E613E2CB32F5700FA7565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923E611A2CB32F5500FA7565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 923E61212CB32F5500FA7565;
+			remoteInfo = "Lab3 Crypto GUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		923E61222CB32F5500FA7565 /* Lab3 Crypto GUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab3 Crypto GUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		923E61332CB32F5700FA7565 /* Lab3 Crypto GUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab3 Crypto GUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		923E613D2CB32F5700FA7565 /* Lab3 Crypto GUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab3 Crypto GUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		923E61242CB32F5500FA7565 /* Lab3 Crypto GUI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Lab3 Crypto GUI";
+			sourceTree = "<group>";
+		};
+		923E61362CB32F5700FA7565 /* Lab3 Crypto GUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Lab3 Crypto GUITests";
+			sourceTree = "<group>";
+		};
+		923E61402CB32F5700FA7565 /* Lab3 Crypto GUIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Lab3 Crypto GUIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		923E611F2CB32F5500FA7565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923E61302CB32F5700FA7565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923E613A2CB32F5700FA7565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		923E61192CB32F5500FA7565 = {
+			isa = PBXGroup;
+			children = (
+				923E61242CB32F5500FA7565 /* Lab3 Crypto GUI */,
+				923E61362CB32F5700FA7565 /* Lab3 Crypto GUITests */,
+				923E61402CB32F5700FA7565 /* Lab3 Crypto GUIUITests */,
+				923E61232CB32F5500FA7565 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		923E61232CB32F5500FA7565 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				923E61222CB32F5500FA7565 /* Lab3 Crypto GUI.app */,
+				923E61332CB32F5700FA7565 /* Lab3 Crypto GUITests.xctest */,
+				923E613D2CB32F5700FA7565 /* Lab3 Crypto GUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		923E61212CB32F5500FA7565 /* Lab3 Crypto GUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923E61472CB32F5700FA7565 /* Build configuration list for PBXNativeTarget "Lab3 Crypto GUI" */;
+			buildPhases = (
+				923E611E2CB32F5500FA7565 /* Sources */,
+				923E611F2CB32F5500FA7565 /* Frameworks */,
+				923E61202CB32F5500FA7565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				923E61242CB32F5500FA7565 /* Lab3 Crypto GUI */,
+			);
+			name = "Lab3 Crypto GUI";
+			packageProductDependencies = (
+			);
+			productName = "Lab3 Crypto GUI";
+			productReference = 923E61222CB32F5500FA7565 /* Lab3 Crypto GUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		923E61322CB32F5700FA7565 /* Lab3 Crypto GUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923E614A2CB32F5700FA7565 /* Build configuration list for PBXNativeTarget "Lab3 Crypto GUITests" */;
+			buildPhases = (
+				923E612F2CB32F5700FA7565 /* Sources */,
+				923E61302CB32F5700FA7565 /* Frameworks */,
+				923E61312CB32F5700FA7565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				923E61352CB32F5700FA7565 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				923E61362CB32F5700FA7565 /* Lab3 Crypto GUITests */,
+			);
+			name = "Lab3 Crypto GUITests";
+			packageProductDependencies = (
+			);
+			productName = "Lab3 Crypto GUITests";
+			productReference = 923E61332CB32F5700FA7565 /* Lab3 Crypto GUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		923E613C2CB32F5700FA7565 /* Lab3 Crypto GUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923E614D2CB32F5700FA7565 /* Build configuration list for PBXNativeTarget "Lab3 Crypto GUIUITests" */;
+			buildPhases = (
+				923E61392CB32F5700FA7565 /* Sources */,
+				923E613A2CB32F5700FA7565 /* Frameworks */,
+				923E613B2CB32F5700FA7565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				923E613F2CB32F5700FA7565 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				923E61402CB32F5700FA7565 /* Lab3 Crypto GUIUITests */,
+			);
+			name = "Lab3 Crypto GUIUITests";
+			packageProductDependencies = (
+			);
+			productName = "Lab3 Crypto GUIUITests";
+			productReference = 923E613D2CB32F5700FA7565 /* Lab3 Crypto GUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		923E611A2CB32F5500FA7565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					923E61212CB32F5500FA7565 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					923E61322CB32F5700FA7565 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 923E61212CB32F5500FA7565;
+					};
+					923E613C2CB32F5700FA7565 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 923E61212CB32F5500FA7565;
+					};
+				};
+			};
+			buildConfigurationList = 923E611D2CB32F5500FA7565 /* Build configuration list for PBXProject "Lab3 Crypto GUI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 923E61192CB32F5500FA7565;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 923E61232CB32F5500FA7565 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				923E61212CB32F5500FA7565 /* Lab3 Crypto GUI */,
+				923E61322CB32F5700FA7565 /* Lab3 Crypto GUITests */,
+				923E613C2CB32F5700FA7565 /* Lab3 Crypto GUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		923E61202CB32F5500FA7565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923E61312CB32F5700FA7565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923E613B2CB32F5700FA7565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		923E611E2CB32F5500FA7565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923E612F2CB32F5700FA7565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923E61392CB32F5700FA7565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		923E61352CB32F5700FA7565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 923E61212CB32F5500FA7565 /* Lab3 Crypto GUI */;
+			targetProxy = 923E61342CB32F5700FA7565 /* PBXContainerItemProxy */;
+		};
+		923E613F2CB32F5700FA7565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 923E61212CB32F5500FA7565 /* Lab3 Crypto GUI */;
+			targetProxy = 923E613E2CB32F5700FA7565 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		923E61452CB32F5700FA7565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		923E61462CB32F5700FA7565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		923E61482CB32F5700FA7565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Lab3 Crypto GUI/Lab3_Crypto_GUI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lab3 Crypto GUI/Preview Content\"";
+				DEVELOPMENT_TEAM = U97PC37A77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Lab3-Crypto-GUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		923E61492CB32F5700FA7565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Lab3 Crypto GUI/Lab3_Crypto_GUI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lab3 Crypto GUI/Preview Content\"";
+				DEVELOPMENT_TEAM = U97PC37A77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Lab3-Crypto-GUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		923E614B2CB32F5700FA7565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U97PC37A77;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Lab3-Crypto-GUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab3 Crypto GUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lab3 Crypto GUI";
+			};
+			name = Debug;
+		};
+		923E614C2CB32F5700FA7565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U97PC37A77;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Lab3-Crypto-GUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab3 Crypto GUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lab3 Crypto GUI";
+			};
+			name = Release;
+		};
+		923E614E2CB32F5700FA7565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U97PC37A77;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Lab3-Crypto-GUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Lab3 Crypto GUI";
+			};
+			name = Debug;
+		};
+		923E614F2CB32F5700FA7565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U97PC37A77;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Lab3-Crypto-GUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Lab3 Crypto GUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		923E611D2CB32F5500FA7565 /* Build configuration list for PBXProject "Lab3 Crypto GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923E61452CB32F5700FA7565 /* Debug */,
+				923E61462CB32F5700FA7565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923E61472CB32F5700FA7565 /* Build configuration list for PBXNativeTarget "Lab3 Crypto GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923E61482CB32F5700FA7565 /* Debug */,
+				923E61492CB32F5700FA7565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923E614A2CB32F5700FA7565 /* Build configuration list for PBXNativeTarget "Lab3 Crypto GUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923E614B2CB32F5700FA7565 /* Debug */,
+				923E614C2CB32F5700FA7565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923E614D2CB32F5700FA7565 /* Build configuration list for PBXNativeTarget "Lab3 Crypto GUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923E614E2CB32F5700FA7565 /* Debug */,
+				923E614F2CB32F5700FA7565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 923E611A2CB32F5500FA7565 /* Project object */;
+}
